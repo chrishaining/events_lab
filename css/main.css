@@ -1,3 +1,31 @@
 body {
   font-family: Palatino;
 }
+
+#reading-list {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  list-style: none;
+  padding: 0px;
+}
+
+.list-item {
+  background-color: blueviolet;
+  margin: 16px;
+  padding: 16px;
+  border-width: medium;
+  background-color: lightblue;
+  border-radius: 25px;
+  border: 2px solid darkblue;
+}
+
+.list-item-property-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.list-item-property-author {
+  font-size: 15px;
+  font-weight: bold;
+}
